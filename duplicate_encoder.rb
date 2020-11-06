@@ -2,10 +2,10 @@ def duplicate_encode(word)
   array = word.downcase.split("")
   encoded = Hash.new(0)
   array.each {|char| encoded[char] += 1}
-  array = array.collect {|nums| encoded[nums] > 1 ? ")" : "("}.join
+  array = array.map {|nums| encoded[nums] > 1 ? ")" : "("}.join
 end
 
-duplicate_encode("Kuu")
+puts duplicate_encode("Kuu")
 
 # def duplicate_encode(word)
 #   array = word.downcase.split("")
