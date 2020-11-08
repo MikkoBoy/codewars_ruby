@@ -6,6 +6,9 @@ Challenges from codewars.com made with ruby.
 
 The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
+# Find the odd int
+Given an array of integers, find the one that appears an odd number of times.
+
 # Isogram
 
 An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
